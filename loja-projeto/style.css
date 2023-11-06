@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/*HEADER*/
+.cabecalho{
+    background-color: #006916;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    }
+
+.lista-menu{
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-usuario{
+    color: #FFFFFF;
+    margin-left: 30px;   
+}
+
+.nome{
+    text-transform: uppercase;
+}
+
+/*MAIN*/
+/**NOVA COLEÇÃO**/
+
+.nova-colecao{
+    background-color: #43CD80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 532px;
+}
+
+.titulo-subtitulo{
+    color: #200065; 
+    text-align: center;   
+}
+
+.titulo-principal {
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 29px;
+    height: 54px;
+}
+
+.subtitulo-principal {
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+
+.negrito {
+    font-weight: 800;
+}
+
+.produtos-da-loja {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.produtos-da-loja li{
+    margin-bottom: 35px;
+    margin-left: 46px;
+    margin-right: 46px;
+    list-style: none;
+    width: 284px;
+    height: 284px;
+    overflow: hidden;
+}
+
+.produtos-da-loja img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.link-externo{
+    color: #0075FF;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 22px;
+    margin-bottom: 35px;
+}
+
+/**CLIENTES**/
+.secao-clientes {
+    background-color: #adf5ad;
+    color: #200065; 
+    height: 616px;
+    padding-left: 50px;
+    padding-right: 56px;
+}
+
+.titulo-sessao {
+    text-align: center;
+    font-family: 'Abril Fatface', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 37px;
+    margin-bottom: 34px;
+}
+
+.estrutura-comentarios{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 75px; 
+}
+
+.feedback {
+    background-color: #D4E0FF;
+    color: #1E1E1E;
+    margin-left: 26px;
+    width: 427px;
+    height: 427px;
+}
+
+.nome-cliente {
+    font-family: 'Abril Fatface', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 48px;
+    margin-top: 38px
+}
+
+.data-feedback{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin-left: 48px;
+    margin-bottom: 52px;
+}
+
+.relato-cliente {
+    text-align: center;
+    font-size: 24px;
+    padding-left: 45px;
+    padding-right: 26px;
+    padding-bottom: 116px;
+}
+
+/**PEDIDOS**/
+.secao-pedidos{
+    background-color: #6bc68a;
+    color: #200065;
+    height: 441px;
+}
+
+.tabela {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 4px;    
+}
+
+thead{
+    background-color: #E78E00;
+}
+
+th, td{
+    width: 230px;
+    height: 18px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    text-align: left;
+    color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-collapse: collapse;
+}
+
+/**FALE CONOSCO**/
+.secao-faleconosco{
+    background-color: #a6d688;
+    color: #200065;
+    height: 685px;
+    padding: 29px 20px 35px;
+}
+
+.formulario{
+    width: 1141px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-form{
+    width: 1141px;
+    height: 28px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.caixa-form {
+    align-items: flex-start;
+    padding: 10px 15px;
+    border: 1px solid #AAAAAD;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 1141px;
+}
+
+.caixa-msg{
+    display: flex;
+    width: 1141px;
+    height: 112px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 10px 15px;
+    border: 1px solid #AAAAAD;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.configurar-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 49px;
+    margin-bottom: 78px;
+}
+
+.botao-enviar{
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    width: 270px;
+    height: 48px;
+    padding: 10px 15px;
+    background-color: #006916;
+    border: 1px solid #006916;
+    border: 1px solid #006916;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/*RODAPÉ*/
+.rodape{
+    background-color: #006916;
+    display: flex;
+    align-items: center;
+    height: 108px;
+}
+
+.texto-rodape{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 30px;
+}
